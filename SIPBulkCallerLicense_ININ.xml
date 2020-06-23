@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<LicenseFile>
+	<Servers>
+		<Server Name="Testing" MacAddress="000000000000" Version="1.0" Created="2020-04-22 14:01:14" Expires="2020-07-21 14:01:14" Company="Interactive Intelligence" Signature="a5591e7bc50a0fe3c20d402e532ecce401f9c9992f9b5f5925f6510469a01a0c8c53211641094e9422a215d0d5bb6d1f5893cf9386714171f36278671480455ac956a2f1d3581d13d54c9194a7edec56c2a6fc5d8ec9f45d42c45cae1814d0a6cf66ac4bce2abed787843e85cfccfb953c1336546a2419e6207e04168d523541">
+			<Features>
+				<Feature Name="I3_FEATURE_INTERNAL_SIP_BULK_CALLER"/>
+			</Features>
+			<Licenses>
+				<License Name="I3_LICENSE_SIP_BULK_CALLER_G.729_SESSIONS" Value="1000" />
+			</Licenses>
+		</Server>
+	</Servers>
+</LicenseFile>
