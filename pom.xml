@@ -178,7 +178,7 @@
                     </webApp>
                 </configuration>
             </plugin>
-		<!-- CODE COVERAGE -->
+		<!-- CODE COVERAGE
  		    <plugin>
  		        <groupId>org.jacoco</groupId>
  		        <artifactId>jacoco-maven-plugin</artifactId>
@@ -199,7 +199,7 @@
  		                </goals>
  		            </execution>
  		        </executions>
- 		</plugin>
+ 		</plugin> -->
 		
         </plugins>
     </build>
