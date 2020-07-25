@@ -52,7 +52,8 @@ public class UserController {
     public final String login(final Model model, final String error, final String logout) {
         int count1=0;
         int count2=0;
-        int count3=0;      
+        int count3=0; 
+        int count4=0;
             
         if (error != null)
         
