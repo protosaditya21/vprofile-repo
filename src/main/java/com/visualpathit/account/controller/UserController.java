@@ -50,13 +50,20 @@ public class UserController {
     /** {@inheritDoc} */
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public final String login(final Model model, final String error, final String logout) {
-        if (error != null){
+        int count1=0;
+        int count2=0;
+        int count3=0;      
+            
+        if (error != null)
+        
+        {
             model.addAttribute("error", "Your username and password is invalid.");
         }
         if (logout != null){
             model.addAttribute("message", "You have been logged out successfully.");
         }
         return "login";
+        
     }
     /** {@inheritDoc} */
     @RequestMapping(value = { "/", "/welcome"}, method = RequestMethod.GET)
